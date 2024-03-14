@@ -10,10 +10,9 @@ Return:
     first element of sequence if it exists, otherwise None
 """
 from typing import Any, Sequence, Union
-from types import NoneType
 
 
-def safe_first_element(lst: Sequence[Any]) -> Union[Any, NoneType]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     safe_first_element function
     """
